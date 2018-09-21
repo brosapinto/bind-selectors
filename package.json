@@ -1,0 +1,29 @@
+{
+  "name": "bind-selectors",
+  "version": "1.0.0",
+  "description": "",
+  "repository": "github:brosapinto/bind-selectors",
+  "bugs": "https://github.com/brosapinto/bind-selectors/issues",
+  "main": "lib/bind-selectors.js",
+  "scripts": {
+    "build": "rollup -c -o lib/bind-selectors.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "redux",
+    "selectors",
+    "bind"
+  ],
+  "author": "pintob",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.6.0",
+    "rollup": "^0.66.2",
+    "rollup-plugin-babel": "^3.0.7"
+  },
+  "dependencies": {
+    "lodash.get": "^4.4.2"
+  }
+}
