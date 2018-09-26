@@ -1,9 +1,14 @@
 {
-  "name": "bind-selectors",
+  "name": "@pintob/bind-selectors",
   "version": "1.0.0",
-  "description": "",
-  "repository": "github:brosapinto/bind-selectors",
-  "bugs": "https://github.com/brosapinto/bind-selectors/issues",
+  "description": "Colocate selectors without coupling them to the Store state shape",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brosapinto/bind-selectors.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brosapinto/bind-selectors/issues"
+  },
   "main": "lib/bind-selectors.js",
   "scripts": {
     "build": "rollup -c -o lib/bind-selectors.js",
@@ -14,8 +19,8 @@
     "selectors",
     "bind"
   ],
-  "author": "pintob",
-  "license": "ISC",
+  "author": "Bruno Pinto",
+  "license": "MIT",
   "devDependencies": {
     "babel": "^6.23.0",
     "babel-preset-env": "^1.7.0",
@@ -23,7 +28,9 @@
     "rollup": "^0.66.2",
     "rollup-plugin-babel": "^3.0.7"
   },
-  "dependencies": {
-    "lodash.get": "^4.4.2"
+  "dependencies": {},
+  "homepage": "https://github.com/brosapinto/bind-selectors#readme",
+  "directories": {
+    "lib": "lib"
   }
 }
